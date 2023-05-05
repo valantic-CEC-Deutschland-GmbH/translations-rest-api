@@ -6,7 +6,7 @@ namespace ValanticSpryker\Client\GlossaryStorage;
 
 use Spryker\Client\GlossaryStorage\GlossaryStorageDependencyProvider as SprykerGlossaryStorageDependencyProvider;
 use Spryker\Client\Kernel\Container;
-use Spryker\Client\Storage\StorageClient;
+use Spryker\Client\Storage\StorageClientInterface;
 
 class GlossaryStorageDependencyProvider extends SprykerGlossaryStorageDependencyProvider
 {
@@ -22,7 +22,7 @@ class GlossaryStorageDependencyProvider extends SprykerGlossaryStorageDependency
         $container = parent::provideServiceLayerDependencies($container);
         $container->set(
             self::REAL_STORAGE_CLIENT,
-            fn (): StorageClient => $container->getLocator()->storage()->client()
+            fn (): StorageClientInterface => $container->getLocator()->storage()->client()
         );
 
         return $container;

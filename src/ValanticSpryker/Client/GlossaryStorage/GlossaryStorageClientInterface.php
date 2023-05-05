@@ -9,6 +9,10 @@ use Spryker\Client\GlossaryStorage\GlossaryStorageClientInterface as SprykerGlos
 interface GlossaryStorageClientInterface extends SprykerGlossaryStorageClientInterface
 {
     /**
+     * {@inheritDoc}
+     *
+     * @api
+     *
      * @param string $isoCode
      *
      * @return array

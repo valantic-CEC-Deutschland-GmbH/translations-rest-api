@@ -5,7 +5,7 @@
 [![coverage report](https://gitlab.nxs360.com/packages/php/spryker/example-package/badges/master/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/example-package)
 
 # Description
- - Adds add glue endpoint to receive spryker translations
+ - Adds glue endpoint to receive spryker translations
 
 # Install
 - https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages

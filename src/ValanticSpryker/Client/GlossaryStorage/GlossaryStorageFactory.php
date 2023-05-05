@@ -5,14 +5,14 @@ declare(strict_types = 1);
 namespace ValanticSpryker\Client\GlossaryStorage;
 
 use Spryker\Client\GlossaryStorage\GlossaryStorageFactory as SprykerGlossaryStorageFactory;
-use Spryker\Client\Storage\StorageClient;
+use Spryker\Client\Storage\StorageClientInterface;
 
 class GlossaryStorageFactory extends SprykerGlossaryStorageFactory
 {
     /**
-     * @return \Spryker\Client\Storage\StorageClient
+     * @return \Spryker\Client\Storage\StorageClientInterface
      */
-    public function getRealStorageClient(): StorageClient
+    public function getRealStorageClient(): StorageClientInterface
     {
         return $this->getProvidedDependency(GlossaryStorageDependencyProvider::REAL_STORAGE_CLIENT);
     }

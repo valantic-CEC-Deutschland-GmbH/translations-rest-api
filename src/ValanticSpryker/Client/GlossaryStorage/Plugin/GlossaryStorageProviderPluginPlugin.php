@@ -2,9 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace ValanticSpryker\Glue\TranslationsRestApi\Dependency;
+namespace ValanticSpryker\Client\GlossaryStorage\Plugin;
 
 use ValanticSpryker\Client\GlossaryStorage\GlossaryStorageClient;
+use ValanticSpryker\Glue\TranslationsRestApi\Dependency\TranslationsProviderPluginInterface;
 
 class GlossaryStorageProviderPluginPlugin implements TranslationsProviderPluginInterface
 {
