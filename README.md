@@ -1,8 +1,8 @@
 # translations-rest-api was build and added on valantic hackathon and is in use in https://glue-de-demo.vcec.cloud/translations
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.0-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/example-package/badges/master/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/example-package/-/pipelines?page=1&scope=all&ref=master)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/example-package/badges/master/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/example-package)
+[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/badges/master/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/-/pipelines?page=1&scope=all&ref=master)
+[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/badges/master/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/translations-rest-api)
 
 # Description
  - Adds glue endpoint to receive spryker translations
@@ -34,8 +34,8 @@ XDEBUG:
 # HowTo Setup new Repo
  - create new project (https://gitlab.nxs360.com/projects/new?namespace_id=461#blank_project)
    - visibility -> Internal
- - push in repo boilerplate copied of example-package (https://gitlab.nxs360.com/packages/php/spryker/example-package)
- - search for string `example-package` and add your descriptions
+ - push in repo boilerplate copied of translations-rest-api (https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api)
+ - search for string `translations-rest-api` and add your descriptions
  - add your custom code / copy in your code / rename namespace to ValanticSpryker
 
 # use nodejs
