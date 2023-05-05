@@ -13,6 +13,10 @@ use Spryker\Client\StorageRedis\Redis\StorageRedisWrapper;
 class GlossaryStorageClient extends SprykerGlossaryStorageClient implements GlossaryStorageClientInterface
 {
     /**
+     * {@inheritDoc}
+     *
+     * @api
+     *
      * @param string $localeIsoCode
      *
      * @return array
