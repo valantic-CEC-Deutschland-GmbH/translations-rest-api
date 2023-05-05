@@ -1,5 +1,5 @@
 {
-    "name": "valantic-spryker/example-package",
+    "name": "valantic-spryker/translations-rest-api",
     "type": "library",
     "description": "Adds glue endpoint to receive spryker translations",
     "license": "MIT",
