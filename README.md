@@ -41,7 +41,7 @@ XDEBUG:
 # use nodejs
  - docker run -it --rm --name my-running-script -v "$PWD":/data node:18 bash
 
- 
+
 # Example output with header Accept-language: de-DE
 
 ```json
