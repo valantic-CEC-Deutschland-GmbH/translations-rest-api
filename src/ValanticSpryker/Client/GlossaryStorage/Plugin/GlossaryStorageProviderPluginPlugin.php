@@ -4,19 +4,14 @@ declare(strict_types = 1);
 
 namespace ValanticSpryker\Client\GlossaryStorage\Plugin;
 
-use ValanticSpryker\Client\GlossaryStorage\GlossaryStorageClient;
+use Spryker\Client\Kernel\AbstractPlugin;
 use ValanticSpryker\Glue\TranslationsRestApi\Dependency\TranslationsProviderPluginInterface;
 
-class GlossaryStorageProviderPluginPlugin implements TranslationsProviderPluginInterface
+/**
+ * @method \ValanticSpryker\Client\GlossaryStorage\GlossaryStorageClientInterface getClient()
+ */
+class GlossaryStorageProviderPluginPlugin extends AbstractPlugin implements TranslationsProviderPluginInterface
 {
-    /**
-     * @param \ValanticSpryker\Client\GlossaryStorage\GlossaryStorageClient $glossaryStorageClient
-     */
-    public function __construct(
-        private GlossaryStorageClient $glossaryStorageClient
-    ) {
-    }
-
     /**
      * @param string $localeIsoCode
      *
@@ -24,6 +19,6 @@ class GlossaryStorageProviderPluginPlugin implements TranslationsProviderPluginI
      */
     public function provide(string $localeIsoCode): array
     {
-        return $this->glossaryStorageClient->getTranslations($localeIsoCode);
+        return $this->getClient()->getTranslations($localeIsoCode);
     }
 }
