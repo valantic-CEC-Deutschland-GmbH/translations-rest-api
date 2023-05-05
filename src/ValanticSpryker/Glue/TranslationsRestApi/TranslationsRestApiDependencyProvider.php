@@ -34,7 +34,7 @@ class TranslationsRestApiDependencyProvider extends AbstractBundleDependencyProv
     {
         $container->set(
             self::TRANSLATION_PROVIDER_PLUGINS,
-            fn (): array => [new GlossaryStorageProviderPluginPlugin($container->getLocator()->glossaryStorage()->client())]
+            fn (): array => [new GlossaryStorageProviderPluginPlugin()]
         );
     }
 }
