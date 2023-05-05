@@ -6,7 +6,7 @@ namespace ValanticSpryker\Glue\TranslationsRestApi;
 
 use Spryker\Glue\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Glue\Kernel\Container;
-use ValanticSpryker\Glue\TranslationsRestApi\Dependency\GlossaryStorageProviderPluginPlugin;
+use ValanticSpryker\Client\GlossaryStorage\Plugin\GlossaryStorageProviderPluginPlugin;
 
 class TranslationsRestApiDependencyProvider extends AbstractBundleDependencyProvider
 {
