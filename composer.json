@@ -1,7 +1,7 @@
 {
     "name": "valantic-spryker/example-package",
     "type": "library",
-    "description": "Adds xxx yyy example-package.",
+    "description": "Adds glue endpoint to receive spryker translations",
     "license": "MIT",
     "require": {
         "php": ">=8.0",
