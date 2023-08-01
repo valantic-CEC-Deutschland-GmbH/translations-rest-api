@@ -8,7 +8,7 @@
  - translations-rest-api was build and added on valantic hackathon and is in use in https://glue-de-demo.vcec.cloud/translations
 
 # Install
-- `composer require valantic-cec/translations-rest-api`
+- `composer require valantic-spryker/translations-rest-api`
 
 # HowTos Cli
 
