@@ -2,7 +2,7 @@
     "name": "valantic-cec/translations-rest-api",
     "type": "library",
     "description": "Adds glue endpoint to receive spryker translations",
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": ">=8.0",
         "spryker/glossary-storage": ">=1.11.1",
