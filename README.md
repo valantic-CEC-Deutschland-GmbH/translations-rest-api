@@ -1,17 +1,14 @@
-# translations-rest-api was build and added on valantic hackathon and is in use in https://glue-de-demo.vcec.cloud/translations
+# translations-rest-api
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.0-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/-/pipelines?page=1&scope=all&ref=main)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api/badges/main/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/translations-rest-api)
+
 
 # Description
  - Adds glue endpoint to receive spryker translations
+ - translations-rest-api was build and added on valantic hackathon and is in use in https://glue-de-demo.vcec.cloud/translations
 
 # Install
-- https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
-
-# Reference implementation
-- https://gitlab.nxs360.com/team-lr/glue-api
+- `composer require valantic-cec/translations-rest-api`
 
 # HowTos Cli
 
@@ -30,13 +27,6 @@ XDEBUG:
 - `$PHP_IDE_CONFIG=serverName=valantic php -dxdebug.mode=debug -dxdebug.client_host=192.168.87.39 -dxdebug.start_with_request=yes ./vendor/bin/codecept run --env standalone`
 
 - Run Tests with coverage: `XDEBUG_MODE=coverage vendor/bin/codecept run --env standalone --coverage --coverage-xml --coverage-html`
-
-# HowTo Setup new Repo
- - create new project (https://gitlab.nxs360.com/projects/new?namespace_id=461#blank_project)
-   - visibility -> Internal
- - push in repo boilerplate copied of translations-rest-api (https://gitlab.nxs360.com/packages/php/spryker/translations-rest-api)
- - search for string `translations-rest-api` and add your descriptions
- - add your custom code / copy in your code / rename namespace to ValanticSpryker
 
 # use nodejs
  - docker run -it --rm --name my-running-script -v "$PWD":/data node:18 bash
