@@ -1,5 +1,5 @@
 {
-    "name": "valantic-cec/translations-rest-api",
+    "name": "valantic-spryker/translations-rest-api",
     "type": "library",
     "description": "Adds glue endpoint to receive spryker translations",
     "license": "proprietary",
